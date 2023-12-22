@@ -1,0 +1,568 @@
+* {
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
+        }
+        .logo img
+        {
+          font-variant: small-caps;
+          color: black;
+          font-family: sans-serif;
+          color: green;
+          font-weight: bolder;
+          font-size: 30px;
+          height: 70px;
+          width: 150px;
+        }
+        .navigation_bar
+         {
+            background-color: white;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            z-index: 5;
+
+          }
+        .nav_menu 
+        {
+            font-size: 25px;
+            font-family: Caliber;
+            color: black;
+            font-weight: bolder;
+            transition-duration: 1s;
+            margin-left: 40px;
+          }
+          .home
+          {
+            margin-top: 70px;
+
+            
+          }
+          .home img 
+          {
+            height: 500px;
+            width: 800px;
+          }
+          .home h1
+          {
+            font-family: sans-serif;
+            font-variant: small-caps;
+            font-size: 30px;
+            color: green;
+
+
+          }
+          .home form input
+          {
+            margin-left: 150px;
+            background-color: green;
+            height: 30px;
+            width: 80px;
+            color: white;
+            border-radius: 5px;
+          }
+
+          .abimg img
+          {
+            height: 400px;
+            width: 400px;
+            padding: 50px;
+            margin-top: 20px;
+            left: 150px;
+
+          }
+           .abimg2 img
+          {
+            height: 300px;
+            width: 300px;
+            margin-left: 50px;
+            margin-right: 20px;
+          }
+          .abimg h1 
+          {
+            margin-top: 120px;
+            text-align: center;
+            font-variant: small-caps;
+            font-weight: bolder;
+          }
+          .category img 
+          {
+            margin-top: 20px;
+            height: 300px;
+            width: 330px;
+            padding: 10px;
+            margin-left: 6px;
+          }
+          .category
+          {
+            margin-top: 50px;
+          }
+          .TP img 
+          {
+            margin-top: 20px;
+            height: 300px;
+            width: 330px;
+            padding: 10px;
+            margin-left: 6px;
+          }
+          .TP
+          {
+            margin-top: 30px;
+          }
+          .BS img 
+          {
+            margin-top: 20px;
+            height: 300px;
+            width: 330px;
+            padding: 10px;
+            margin-left: 6px;
+          }
+          .BS
+          {
+            margin-top: 30px;
+          }
+          .mySlides {
+            display:none;
+            margin-top: 80px;
+          }
+          .marq
+          {
+            height: 70px;
+            width: 100%;
+            background-color: red;
+            color: whitesmoke;
+            font-family: sans-serif;
+            font-variant: small-caps;
+            font-size: 50px;
+            margin-top: 100px;
+            }
+
+          .abinfo
+          {
+            text-align: center;
+            margin-top: 80px;
+          }
+          .abinfo h1
+          {
+            font-variant: small-caps;
+
+          }
+          .abinfo p 
+          {
+            font-family: cursive;
+            font-size: 20px;
+            margin-top: 20px;
+          }
+
+           .mySlides1 {
+            display:none;
+            margin-top: 25px;
+            width: 900px;
+            margin-left: 250px;
+            height: 450px;
+
+          }
+          .abt h1 
+          {
+            margin-top: 100px;
+            text-align: center;
+            font-variant: small-caps;
+
+          }
+          .contact
+          {
+            margin-top: 100px;
+/*            margin-left: 150px;*/
+            font-size: 20px;
+          }
+          .contact table
+          {
+            height:300px;
+            width: 900px;
+            margin-left: 250px;
+            border: 1px solid whitesmoke;
+            margin-top: 80px;
+          }
+          .contact h1
+          {
+            font-variant: small-caps;
+            text-align: center;
+/*            font-weight: bold;*/
+            font-size: 50px;
+          }
+
+          .contact td
+          {
+            border: 3px solid whitesmoke ;
+            margin-left: 50px;
+          }
+          .contact td 
+          {
+            height: 300px;
+            width: 300px;
+          }
+          .contact td:hover
+          {
+            transform: scale(1);
+            border: 2px solid green;
+            height: 310px;
+            width: 310px;
+            border-radius: 25px;
+          }
+          .que
+          {
+            margin-top: 150px;
+            text-align: center;
+          }
+          .que h1
+          {
+            font-variant: small-caps;
+            color: green;
+
+
+          }
+          .que summary
+          {
+            font-family: cursive;
+            font-weight: bold;
+            margin-top: 25px;
+            font-size: 20px;
+
+          }
+          .que p
+          {
+            text-align: center;
+          }
+
+          .masala table
+          {
+            margin-left: 120px;
+          }
+          .cat
+          {
+            font-variant: small-caps;
+            text-align: center;
+            font-size: 50px;
+/*            font-family: Arial Black;*/
+/*            font-weight: bold;*/
+          }
+          .container {
+/*  border: 2px solid #ccc;*/
+/*  background-color: #eee;*/
+/*  border-radius: 5px;*/
+  padding: 16px;
+  margin: 15px ;
+  margin-left: 100px;
+}
+
+.container1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container1 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container1 span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container1 {
+      text-align: center;
+  }
+  .container1 img {
+      margin: auto;
+      float: none;
+      display: block;
+      height: 40px;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+/*
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+
+/*body{
+  background-color:#4b4b4b;
+}*/
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: green;
+}
+
+.nav{
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#ffffff;
+}
+
+.box{
+  color:white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.cart-count{
+  position: absolute;
+  background-color: #2f3542;
+  top: -5px;
+  right: 0;
+  padding: 3px;
+  height: 20px;
+  width: 20px;
+  line-height:20px ;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+#cart-icon{
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.container img{
+  width: 100%;
+}
+
+.container{
+  max-width: 1200px;
+  padding: 4rem;
+  margin: auto;
+  width: 100%;
+}
+
+h2.title{
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color:#ffffff;
+}
+
+.shop-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+  gap:1.5rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.food-box{
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+  border-radius: 3px;
+/*  height: 300px;*/
+/*  width: 300px;*/
+}
+
+.pic{
+  overflow: hidden;
+}
+
+.pic:hover img{
+transform: scale(1.1);
+}
+
+.food-img{
+  transition: 0.4s;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+/*  height: ;*/
+}
+
+.food-title{
+  font-size: 1rem;
+  font-weight: 600;
+  color:#ff6348;
+  margin-top: 0px ;
+}
+
+.food-price{
+  font-weight:500 ;
+  margin-top: 1px;
+}
+
+.add-cart{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #2ed573;
+  color:white;
+  padding: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.add-cart:hover{
+  background-color:rgba(255, 0, 0, 0.786);
+}
+  
+
+.cart{
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 400px;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+  z-index: 100;
+}
+
+.cart-active{
+  right:0;
+  transition: 0.5s;
+}
+
+.cart-title{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  padding-bottom:20px ;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.cart-box{
+  display: grid;
+  grid-template-columns: 32% 50% 18%;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 10px;
+}
+
+.cart-img{
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border:2px solid  rgba(0,0,0,0.1);
+  padding: 5px;
+}
+.detail-box{
+  display: grid;
+  row-gap: 0.5rem;  
+}
+
+.price-box{
+  display: flex;
+    justify-content: space-between; 
+}
+
+.cart-food-title{
+   font-size: 1rem;
+   text-transform: uppercase;
+   color:#ff6348;
+   font-weight: 500;
+}
+
+.cart-price{
+  font-weight: 500;
+}
+
+.cart-quantity{
+  border:1px solid rgba(0,0,0,0.1);
+  outline:none ;
+  width: 2.4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.cart-remove{
+  font-size: 24px;
+  color:red;
+  cursor: pointer;
+}
+
+.total{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+.total-title{
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.total-price{
+  margin-left: 0.5rem;
+}
+
+.btn-buy{
+  padding: 12px 20px;
+  background-color:#2f3542;
+  color:#fff;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#cart-close{
+  position: absolute;
+  top: 1rem;
+  right: 0.8rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+
+.sh img:hover
+{
+  transform: scale(1.1);
+
+}
+.gurantees h1 
+{
+  text-align: center;
+  font-variant: small-caps;
+  margin-top: 100px;
+}
+.gurantees p 
+
+ font-weight: bold;
+}
+/*.ate h1
+{
+  text-align: center;
+  margin-top: 50px;
+  font-variant: small-caps;
+}*/

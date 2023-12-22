@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap link below -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <!-- aos css link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Grocery</title>
+</head>
+<body>
+
+	<div class="main_div">
+      <div class="navigation_bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"
+            ><span class="logo"><img src="logo.png"></span></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  ><span class="nav_menu">Home</span>
+                  <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"
+                  ><span class="nav_menu">About</span></a
+                >
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="shop.html"
+                  ><span class="nav_menu">Shops</span>
+                  </a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"
+                  ><span class="nav_menu">Contact us</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html"
+                  ><span class="nav_menu">LogIn</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- navigation_bar code ends here -->
+
+
+      <!-- home pge starts here -->
+
+
+      <div class="home" >
+
+      	<table style="height: 550px; width: 100%;">
+      		<tr>
+      			<td><img src="home1.jpg"></td>
+      			<td>   <h1>Best Quality Products </h1>
+      				<h1> <img src="logo.png" style="height: 100px; width:200px"> </h1> <br>
+              <h1 style="font-size: 30px;">Enjoy Halthy Life With Fresh Grocery </h1> <br>
+      				<h1>स्वछ, ताजा व निवडलेला भाजीपाला</h1> <br>
+              <form> 
+      				<a href="shop.html"><input type="button" name="ShopNow" value="ShopNow" >
+            </form>
+
+      			</td>
+      		</tr>
+      	</table>
+      	
+      </div>
+
+
+            <!-- marquee starts here -->
+
+            <div class="marq">
+              <marquee>
+                Chrismats Offers Strats From Today.......  Grab your Offers Soon!!!!!!!!!!!!!.....
+              </marquee>
+            </div>
+
+
+              <!-- <img  src="slide1.jpg" style="width:900px;height: 400px;margin-left: 250px;margin-top: 50px;"> -->
+
+
+         <!--  slide show starts here -->
+
+         <div class="w3-content w3-section" style="width:100% height: 600px">
+  <img class="mySlides" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1702402496_1699615280_Aaj_Ki_Deals_Desktop_New.jpg?im=Resize=(1680,320)" style="width:100% ;height: 500px;margin-left: 0px;">
+  <img class="mySlides" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1702898622_1680x320_HPMC.jpg?im=Resize=(1680,320)" style="width:100%;height: 500px;margin-left: 0px;">
+  <img class="mySlides" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1701884220_Har_Thaali_Mein_Basmati_Desktop.jpg?im=Resize=(1680,320)" style="width:100% height: 500px;margin-left: 0px;">
+  <img class="mySlides" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1703096978_Unbelievable_Deals_On_Daily_Favourites_Desktop.jpg?im=Resize=(1680,320)" style="width:100%;height: 500px;margin-left: 0px;">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+          <!-- slideshow ends here -->
+ 
+      <div class="category">
+        <h1 style="margin-left: 25px; margin-top: 25px;text-align:center;font-variant: small-caps; margin-top:150px;font-size:50px;">Category</h1>
+        <table>
+          <tr>
+            <td> <a href="oilmasala.html"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1702576897_Oil_and_Masala.jpg?im=Resize=(223,280)" alt="hoodie"  > <br> 
+</td>            
+
+
+  <td> <a href="dryfruits.html"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1702576964_Dry_fruits_and_nuts.jpg?im=Resize=(223,280)" alt="hoodie"  > <br> 
+ </td>
+
+
+             <td> <a href="veggis.html"><img src="veggi.jpg" alt="hoodie" style="border-radius:55px ;height: 280px; width:280px;"> <br> 
+</a></td>
+
+                <td> <a href="fruits.html"><img src="fruits.jpg" alt="hoodie" style="border-radius:55px ;height: 280px; width:280px;"> <br> 
+</a></td>            
+          </tr>
+
+
+          
+        </table>
+        
+      </div>
+
+
+        <!-- category ends here -->
+
+
+        <div class="gurantees">
+    <h1> Our Gurantees </h1>
+    <table>
+      <tr>
+        <!-- <td> <img src="https://static.javatpoint.com/tutorial/quality-assurance/images/quality-assurance1.jpg" style="height:150px; width:150px; margin-top:100px;margin-left: 50px;">
+              <p style="margin-left:60px;">Quality You can trust</p>
+                            
+
+        </td> -->
+ <td> <img src="https://static.javatpoint.com/tutorial/quality-assurance/images/quality-assurance1.jpg" style="height:180px; width:180px; margin-top:70px;margin-left: 100px;">
+           <b>   <p style="margin-left:100px; margin-top:20px;">Quality You can trust</p> </b>
+        </td>
+
+
+        <td> <img src="https://t3.ftcdn.net/jpg/04/14/78/90/360_F_414789044_6xD0f4z9YcHfQimfnighWoUCIqgEJ66G.jpg" style="height:250px; width:250px; margin-top:10px;margin-left: 90px;">
+              <b><p style="margin-left:160px;">Free Delivery</p> </b>
+        </td>
+
+         <td> <img src="https://png.pngtree.com/png-clipart/20230923/original/pngtree-clock-logo-icon-simple-time-illustration-vector-png-image_12532525.png" style="height:250px; width:250px; margin-top:10px;margin-left: 80px;"> 
+              <b><p style="margin-left:130px;">On Time Delivery </p></b> 
+        </td>
+
+        <td> <img src="https://cdn-icons-png.flaticon.com/512/25/25400.png" style="height:150px; width:150px; margin-top:80px;margin-left: 130px;"> <br>
+              <b><p style="margin-left:150px;margin-top: 35px;">No Return Policy </p></b> 
+        </td>
+      </tr>
+    </table>
+
+  </div>
+
+
+
+
+          <!-- home page ends here -->
+
+
+            <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4" style="color:white;">Quick Links</h4>
+                        <a class="btn btn-link" href="">Shetivala</a>
+                        <a class="btn btn-link" href="">About Us</a>
+                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="">Visit Store</a>
+                    </div>
+
+                    <div>
+                      <img src="logo.png" style="height:90px; width:200px"> <br> <br>
+                      <p> Online Vegitables, Fruits & Grocery</p>
+                    </div> 
+                    <div class="col-lg-3 col-md-6" style="margin-left: 20px;">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Bhalewadi highStreet,Baner,Pune</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>shetivala@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                   <!--  <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                        <p>09AM - 09PM</p>
+                        <h5 class="text-light fw-normal">Sunday</h5>
+                        <p>10AM - 08PM</p>
+                    </div> -->
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                        <p>click here to sign in .</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        
+                       <!--  <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+</body>
+</html>
