@@ -247,6 +247,10 @@
 /*            font-family: Arial Black;*/
 /*            font-weight: bold;*/
           }
+          /*.cat:hover
+          {
+            transform: scale(1.1);
+          }*/
           .container {
 /*  border: 2px solid #ccc;*/
 /*  background-color: #eee;*/
